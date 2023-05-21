@@ -12,6 +12,8 @@ This repository contains a Python simulator for scheduling periodic real-time ta
 
 - **Overhead Modeling:** The simulator takes into account various overheads involved in task scheduling and tick interrupting, such as context switching, task releasing, and manipulating the ready queue. Overheads related to the initialization and scheduling at the end of the jobs are fully interruptible.
 
+- **Release jiter handling**: The consideration of release jitter, similar to that experienced on actual hardware, is incorporated into the simulator. When a task's period is not evenly divisible by the tick interrupt, a delay is introduced before its release. 
+
 - **Scheduling Algorithms:** Two different scheduling algorithms are supported: **RM** and **EDF**.
 
 - **Visualization:** The simulator provides the possibility of visualizing task sets for a given time duration.
