@@ -35,11 +35,11 @@ To run the simulator, ensure that you have the following dependencies installed:
 
 1. Clone this repository to your local machine using the following command:
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/maciejdevs/rt-simulator-overheads.git
 ```
 2. Change to the repository's directory:
 ```
-cd your-repo-name
+cd rt-simulator-overheads
 ```
 3. Create a new virtual environment:
 ```
